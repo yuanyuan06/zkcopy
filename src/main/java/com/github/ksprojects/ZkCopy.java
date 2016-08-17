@@ -1,11 +1,10 @@
 package com.github.ksprojects;
 
-import com.github.ksprojects.zkcopy.Node;
-import com.github.ksprojects.zkcopy.writer.Writer;
-import org.apache.log4j.BasicConfigurator;
 import org.apache.log4j.Logger;
-import org.apache.log4j.PropertyConfigurator;
+
+import com.github.ksprojects.zkcopy.Node;
 import com.github.ksprojects.zkcopy.reader.Reader;
+import com.github.ksprojects.zkcopy.writer.Writer;
 
 public class ZkCopy
 {
